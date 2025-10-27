@@ -1,3 +1,0 @@
-//このブックマークレットを登録して実行すると、クリップボードに監視の切断に必要なものがコピーされます。ブックマークレットを実行するページはhttpsじゃないと動作しないので注意
-
-javascript:(async()=>{try{await navigator.clipboard.writeText('chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json');await navigator.clipboard.writeText(`chrome.management.setEnabled('gjgcdakenofppainakiophjbadnbglji', false);`);alert('📋 コピーしました！');}catch(e){alert('❌ コピーに失敗しました: '+e.message);}})();
