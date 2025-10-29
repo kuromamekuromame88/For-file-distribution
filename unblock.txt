@@ -1,0 +1,1 @@
+javascript:(async()=>{try{await navigator.clipboard.writeText('chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json');await navigator.clipboard.writeText(`chrome.management.setEnabled('gjgcdakenofppainakiophjbadnbglji', false);`);alert('📋 コピーしました！');}catch(e){alert('❌ コピーに失敗しました: '+e.message);}})();
