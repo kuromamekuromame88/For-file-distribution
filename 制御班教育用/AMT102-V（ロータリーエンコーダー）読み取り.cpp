@@ -21,7 +21,7 @@ G GND
 ESP32Encoder encoder;
 
 /*
-  関数                1回転あたりのカウント数
+  初期化用の関数           1回転あたりのカウント数
   attachSingleEdge(A,B)  2048
   attachHalfQuad(A,B)    4096
   attachFullQuad(A,B)    8192
