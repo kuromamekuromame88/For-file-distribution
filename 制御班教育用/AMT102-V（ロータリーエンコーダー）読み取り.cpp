@@ -26,7 +26,7 @@ ESP32Encoder encoder;
   attachHalfQuad(A,B)    4096
   attachFullQuad(A,B)    8192
 
-  DIPスイッチと分解能の関係
+  DIPスイッチと分解能の関係（DIPスイッチの値を右から並べたとき）
   DIPスイッチ 分解能
   0000        2048 <=このライブラリではこの分解能を使用するため、すべてのDIPスイッチをoffにしておく
   0010        1024
